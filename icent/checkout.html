@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Astrojack</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles3.css"> 
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://i.pinimg.com/736x/3f/94/05/3f940575910208a44e091a23de74e4bc.jpg" alt="Astrojack Logo">
+        </div>
+        <nav>
+            <a href="1stpage.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="#">Blog</a>
+            <a href="faq.html">FAQ</a>
+            <a href="#">Size Chart</a>
+            <a href="#">Charity</a>
+            <a href="#">Top Donation</a>
+        </nav>
+        <div class="header-right">
+            <a href="#"><img src="https://i.redd.it/srb77p3pw9xd1.png" alt="Search" class="icon"></a>
+            <a href="#"><img src="https://preview.redd.it/mg3d45hnk3xd1.png?auto=webp&s=edce607efaee28b439bc38c3ffa06656e84ad0a4" alt="Account" class="icon"></a>
+            <a href="#"><img src="https://i.redd.it/eifb0w5jv9xd1.png" alt="Cart" class="icon"></a>
+        </div>
+    </header>
+
+    <section class="product-details">
+        <div class="product-images">
+            <button class="prev-btn">❮</button>
+            <div class="image-container">
+                <img src="https://i.redd.it/6ajh1xg1laxd1.png" alt="Astrojack Shirt Back" class="main-img" id="image">
+                <img src="https://i.redd.it/1o0dd1ptnaxd1.png" alt="Image 1" class="image-slide">
+                <img src="https://i.redd.it/9adycgxf3bxd1.jpeg" alt="Image 1" class="image-slide">
+            </div>
+            <button class="next-btn">❯</button>
+
+            <div class="thumbnail-container">
+                <img src="https://i.redd.it/6ajh1xg1laxd1.png" alt="Thumbnail 1" class="thumbnail">
+                <img src="https://i.redd.it/1o0dd1ptnaxd1.png" alt="Thumbnail 2" class="thumbnail">
+                <img src="https://i.redd.it/9adycgxf3bxd1.jpeg" alt="Thumbnail 3" class="thumbnail">
+
+            </div>
+        </div>
+
+        <div class="product-info">
+            <h1>ASTRO JACK - HOPES A GAIN</h1>
+            <p class="price">1,699 PHP</p>
+            
+            <label for="size">Size</label>
+            <div class="select-box">
+                <select id="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XXL</option>
+                </select>
+            </div>
+
+            <label for="quantity">Quantity</label>
+            <div class="select-box">
+                <select id="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+
+            <label class="notify-label" for="notify">Notify me when this product is available:</label>
+            <input type="email" id="notify" placeholder="email@website.com" class="notify-input">
+
+            <p class="product-description">
+                A different version of Astrojack Hopes A Gain tee. The design elements are made of a mix of embroidery and corduroy applique.
+                <br> - Product color may vary due to photographic lighting sources, post-processing editing, or your monitor settings.
+                <br> - Depending on the fabric’s properties, there may be an error of approximately ¼ inch to 1 inch (+/-).
+                <br> - The measurements may have minor variations because of the handmade nature of the product.
+            </p>
+
+            <button class="checkout-btn">Checkout</button>
+        </div>
+    </section>
+
+    <script src="scriptcheckout.js"></script> 
+</body>
+</html>

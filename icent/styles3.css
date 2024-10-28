@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alegreya SC', serif;
+    background-color: #212121;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #212121;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    gap: 75px;
+    justify-content: flex-start;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.header-right {
+    display: flex;
+    gap: 30px; /* Increase spacing between icons */
+    margin-left: auto;
+    margin-right: 65px; /* Adjust this value to move the icons right */
+    align-items: center; /* Center vertically */
+    padding-top: 10px; /* Adjust this value to lower the icons */
+}
+
+.icon {
+    width: 40px; /* Increase the width for larger icons */
+    height: 40px; /* Increase the height for larger icons */
+    object-fit: contain;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.product-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 220px 300px 50px 100px;
+}
+
+.product-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    padding-left: 90px;
+    position: relative;
+}
+
+.image-container {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+    position: absolute;
+}
+
+.prev-btn,
+.next-btn {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+}
+
+.prev-btn {
+    left: 30px;
+}
+
+.next-btn {
+    right: -50px;
+}
+
+.thumbnail-container {
+    display: flex;
+    margin-top: 15px;
+    overflow: hidden; /* Prevent overflow */
+    position: relative; /* Allow absolute positioning of thumbnails */
+    width: 450px; /* Width to fit all thumbnails */
+}
+
+.thumbnail {
+    width: 150px; /* Width of each thumbnail */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: transform 0.5s ease; /* Smooth transition for sliding effect */
+    margin: 0; /* Ensure no margin is applied */
+}
+
+.product-info {
+    width: 50%;
+}
+
+.product-info h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #bd4848;
+}
+
+.product-info .price {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.product-info label {
+    display: block;
+    margin: 15px 0 5px;
+}
+
+.notify-label {
+    margin-top: 20px; /* Add margin above the label */
+    font-size: 16px; /* Optional: Set font size for label */
+}
+
+.notify-input {
+    display: block;
+    width: 100%; /* Full width */
+    margin-top: 5px; /* Margin between label and input */
+    border: none; /* Remove border */
+    border-bottom: 2px solid #fff; /* Underline effect */
+    background: transparent; /* Make background transparent */
+    color: #fff; /* Keep text color */
+    padding: 5px 0; /* Padding for input */
+    font-size: 16px; /* Adjust font size as needed */
+    min-width: 300px; /* Minimum width for the input */
+    outline: none; /* Remove outline on focus */
+}
+
+.product-description {
+    margin-bottom: 20px;
+}
+
+.checkout-btn {
+    padding: 15px 30px;
+    background-color: #bd4848;
+    border: none;
+    color: #000000;
+    font-size: 16px;
+}
+
+.main-img {
+    max-width: 700px;
+    max-height: 700px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#size {
+    display: block;
+    width: 100%; 
+    margin-top: 5px; 
+    border: none; 
+    border-bottom: 2px solid #fff; 
+    background: transparent; 
+    color: #fff; 
+    padding: 5px 0; 
+    font-size: 16px; 
+    outline: none; 
+}
+
+#size option {
+    color: black; 
+    background: white; 
+}
+
+#quantity {
+    display: block;
+    width: 100%; 
+    margin-top: 5px; 
+    border: none; 
+    border-bottom: 2px solid #fff; 
+    background: transparent; 
+    color: #fff;
+    padding: 5px 0; 
+    font-size: 16px; 
+    outline: none; 
+}
+
+#quantity option {
+    color: black; 
+    background: white; 
+}

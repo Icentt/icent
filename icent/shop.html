@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@400;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation Sidebar -->
+    <nav class="sidebar">
+        <div class="burger-button" id="burgerButton">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="logo">
+            <img src="https://i.pinimg.com/736x/3f/94/05/3f940575910208a44e091a23de74e4bc.jpg" alt="Logo">
+        </div>
+
+        <div class="nav-top">
+            <span class="nav-item">Men</span>
+            <span class="nav-item">Women</span>
+            <span class="nav-item">Kids</span>
+        </div>
+        
+        <ul class="nav-menu">
+            <li><a href="#">New</a></li>
+            <li><a href="#">True Neutrals</a></li>
+            <li><a href="#">Basics</a></li>
+            <li><a href="#">T-Shirts</a></li>
+            <li><a href="#">Sweatshirts</a></li>
+            <li><a href="#">Shirts</a></li>
+            <li><a href="#">Shoes</a></li>
+            <li><a href="#">Shorts</a></li>
+            <li><a href="#">Jeans</a></li>
+            <li><a href="#">Trousers</a></li>
+            <li><a href="#">Suits</a></li>
+            <li><a href="#">Activewear</a></li>
+            <li><a href="#">Matching Sets</a></li>
+            <li><a href="#">Swimwear</a></li>
+        </ul>
+    </nav>
+
+    <div class="overlay" id="overlay"></div>
+
+    <div class="popup-menu" id="popupMenu">
+        <div class="popup-header">
+            <button class="close-button" id="closeButton">&times;</button>
+            <img src="https://i.pinimg.com/736x/3f/94/05/3f940575910208a44e091a23de74e4bc.jpg" alt="Logo" class="popup-logo">
+        </div>
+        <ul>
+            <li><a href="1stpage.html">Home</a></li> 
+            <li><a href="shop.html">Shop</a></li> 
+            <li><a href="#">Blog</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="#">Size Chart</a></li>
+            <li><a href="#">Charity</a></li>
+            <li><a href="#">Top Donation</a></li>
+        </ul>
+    </div>
+
+    <header class="header">
+        <div class="inputBox_container">
+            <svg class="search_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" alt="search icon">
+                <path d="M46.599 46.599a4.498 4.498 0 0 1-6.363 0l-7.941-7.941C29.028 40.749 25.167 42 21 42 9.402 42 0 32.598 0 21S9.402 0 21 0s21 9.402 21 21c0 4.167-1.251 8.028-3.342 11.295l7.941 7.941a4.498 4.498 0 0 1 0 6.363zM21 6C12.717 6 6 12.714 6 21s6.717 15 15 15c8.286 0 15-6.714 15-15S29.286 6 21 6z"></path>
+            </svg>
+            <input class="inputBox" id="inputBox" type="text" placeholder="Search For Products">
+        </div>
+        
+        <a href="#" class="options-button">
+            <img src="https://i.redd.it/dm56d22by9xd1.png" alt="Options" class="icon">
+        </a>
+
+        <a href="#" class="cart-button">
+            <img src="https://i.redd.it/eifb0w5jv9xd1.png" alt="Cart" class="icon">
+        </a>
+    </header>
+
+    <main class="products-container">
+        <div class="product">
+            <a href="checkout.html">
+                <img src="https://i.pinimg.com/564x/a6/3a/e2/a63ae26f626371082960cf22d20cbf78.jpg" alt="Contrast Tech Jacket" class="product-image">
+            </a>
+            <p>Carti Hoodie Balinciga</p>
+            <span>19,799 PHP</span>
+        </div>
+        <div class="product">
+            <a href="checkout.html">
+                <img src="https://i.pinimg.com/564x/ec/18/01/ec180182765ddb97dac0033df68e89d7.jpg" alt="Wool Blazer" class="product-image">
+            </a>
+            <p>Eye of an Angel</p>
+            <span>39,999 PHP</span>
+        </div>
+        <div class="product">
+            <a href="checkout.html">
+                <img src="https://i.pinimg.com/564x/0b/fe/46/0bfe469eedaee58e8986704cd1319426.jpg" alt="Blue Collar Sweater" class="product-image">
+            </a>
+            <p>Black Carti Jersey</p>
+            <span>7,500 PHP</span>
+        </div>
+        <div class="product">
+            <a href="checkout.html">
+                <img src="https://i.pinimg.com/564x/e1/30/94/e130942ea680c974d7ab09e93a5bf922.jpg" alt="Palm Tree Polo" class="product-image">
+            </a>
+            <p>Blue Carti "97 Edition" Jersey</p>
+            <span>10,500 PHP</span>
+        </div>
+        <div class="product">
+            <a href="checkout.html">
+                <img src="https://i.pinimg.com/736x/f2/39/df/f239dfc016a331e42c7e8c42fb47e9b8.jpg" alt="Wide Leg Trouser" class="product-image">
+            </a>
+            <p>Black Travis Jersey</p>
+            <span>11,500 PHP</span>
+        </div>
+        <div class="product">
+            <a href="checkout.html">
+                <img src="https://i.pinimg.com/564x/f4/30/f0/f430f0081aa977f3cec83df4971b805d.jpg" alt="Cargo Short" class="product-image">
+            </a>
+            <p>Grey Carti "97 Edition" Jersey</p>
+            <span>10,500 PHP</span>
+        </div>
+    </main>
+    
+</body>
+</html>
